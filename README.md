@@ -1,6 +1,11 @@
-# ruhhbs — Portfólio pessoal
+# Alex Portfolio — Portfólio pessoal
 
 [DEMO](https://www.ruhhbs.club/Alexportfoliov1/)
+
+<img width="1883" height="1249" alt="image" src="https://github.com/user-attachments/assets/9a32ce45-e093-470f-9249-147818a4d71c" />
+
+
+
 
 Portfólio pessoal em uma única página, no formato link-in-bio. Feito com HTML, CSS e JavaScript puros, sem frameworks, backend, processo de build, analytics ou dependências remotas em tempo de execução.
 
