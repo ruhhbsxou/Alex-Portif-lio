@@ -26,8 +26,7 @@ Portfólio pessoal em uma única página, no formato link-in-bio. Feito com HTML
     │   └── main.js
     ├── img/
     │   ├── avatar-placeholder.png
-    │   ├── bagrexou.png
-    │   ├── favicon.png
+    │   │   ├── favicon.png
     │   └── gallery/
     │       ├── bruxo_00001.jpg
     │       ├── Grounded2_gameplayoflove.jpg
