@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1e1f22">
+    <meta name="description" content="Conheça meus projetos, acompanhe minhas redes e fale comigo em um só lugar.">
+    <meta property="og:site_name" content="Alex">
+    <meta property="og:title" content="Alex — projetos, redes e contato">
+    <meta property="og:description" content="Conheça meus projetos, acompanhe minhas redes e fale comigo em um só lugar.">
+    <meta property="og:image" content="https://seusite.com/assets/img/avatar-placeholder">
+    <meta property="og:image:alt" content="Avatar de ruhhbs">
+    <meta property="og:url" content="https://seusite.com/">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alex — projetos, redes e contato">
+    <meta name="twitter:description" content="Conheça meus projetos, acompanhe minhas redes e fale comigo em um só lugar.">
+    <meta name="twitter:image" content="https://seusite.com/assets/img/avatar-placeholder">
+    <meta name="twitter:image:alt" content="Avatar de Alex">
+    <script id="discord:component-embed" type="application/json">
+    {
+      "component": {
+        "type": 17,
+        "accent_color": 5763719,
+        "components": [
+          {
+            "type": 9,
+            "components": [
+              {
+                "type": 10,
+                "content": "# Alex\nProjetos, redes e contato em um só lugar.\n\n**Discord:** ID DO DISCORD"
+              }
+            ],
+            "accessory": {
+              "type": 11,
+              "media": {
+                "url": "https://seusite.com/assets/img/avatar-placeholder"
+              },
+              "description": "Avatar de Alex"
+            }
+          },
+          {
+            "type": 1,
+            "components": [
+              {
+                "type": 2,
+                "style": 5,
+                "url": "https://x.com/",
+                "label": "X / Twitter"
+              },
+              {
+                "type": 2,
+                "style": 5,
+                "url": "https://www.youtube.com",
+                "label": "YouTube"
+              },
+              {
+                "type": 2,
+                "style": 5,
+                "url": "https://steamcommunity.com/",
+                "label": "Steam"
+              }
+            ]
+          }
+        ]
+      }
+    }
+    </script>
+    <title>ruhhbs — projetos, redes e contato</title>
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="assets/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <!--
+      ÁREA DE CONFIGURAÇÃO
+      Edite os valores abaixo no próprio index.html. Não inclua senha ou dados privados.
+      Para redes sem endereço, deixe o atributo vazio ou remova-o.
+    -->
+    <div
+      id="profile-config"
+      hidden
+      data-name="Alex"
+      data-bio="Um cantinho na internet para compartilhar meus projetos e interesses."
+      data-text="Criando coisas, explorando ideias e aproveitando o caminho."
+      data-avatar="assets/img/avatar-placeholder"
+      data-x="https://x.com"
+      data-youtube="https://www.youtube.com"
+      data-steam="https://steamcommunity.com"
+      data-discord="SEU ID DO DISCORD"
+      data-email="SEUEMAIL@seusite.com"
+    ></div>
+
+    <main class="page-shell">
+      <section class="profile-card" aria-labelledby="profile-name">
+        <div class="profile-content">
+          <img
+            class="avatar"
+            id="avatar"
+            src="assets/img/avatar-placeholder.png"
+            data-fallback="assets/img/avatar-placeholder.png"
+            alt="Avatar de Alex"
+            width="128"
+            height="128"
+          >
+
+          <h1 id="profile-name">Alex</h1>
+
+          <nav class="social-links" aria-label="Redes sociais">
+            <a class="social-card social-card-x" id="social-x" href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil no X / Twitter">
+              <span class="social-card-header">
+                <span class="social-card-icon"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></span>
+                <span class="social-card-title">X / Twitter</span>
+              </span>
+              <span class="social-card-description">Acompanhe minhas publicações e atualizações.</span>
+              <span class="social-card-action">Visitar perfil <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+            </a>
+            <a class="social-card social-card-youtube" id="social-youtube" href="https://youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="Visitar canal no YouTube">
+              <span class="social-card-header">
+                <span class="social-card-icon"><i class="fa-brands fa-youtube" aria-hidden="true"></i></span>
+                <span class="social-card-title">YouTube</span>
+              </span>
+              <span class="social-card-description">Vídeos e conteúdos no meu canal.</span>
+              <span class="social-card-action">Assistir no YouTube <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+            </a>
+            <a class="social-card social-card-steam" id="social-steam" href="https://steamcommunity.com/" target="_blank" rel="noopener noreferrer" aria-label="Visitar perfil na Steam">
+              <span class="social-card-header">
+                <span class="social-card-icon"><i class="fa-brands fa-steam" aria-hidden="true"></i></span>
+                <span class="social-card-title">Steam</span>
+              </span>
+              <span class="social-card-description">Meu perfil e jogos na Steam.</span>
+              <span class="social-card-action">Ver perfil <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span>
+            </a>
+            <button class="social-card social-card-discord" id="discord-copy" type="button" aria-label="Copiar usuário do Discord">
+              <span class="social-card-header">
+                <span class="social-card-icon"><i class="fa-brands fa-discord" aria-hidden="true"></i></span>
+                <span class="social-card-title">Discord</span>
+              </span>
+              <span class="social-card-description" id="discord-username">SEU ID DO DISCORD</span>
+              <span class="social-card-action">Copiar usuário <i class="fa-regular fa-copy" aria-hidden="true"></i><span class="tooltip" id="discord-tooltip" role="status" aria-live="polite"></span></span>
+            </button>
+          </nav>
+
+          <a class="profile-email-link" id="email-link" href="mailto:seuemail@seusite.com">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            Enviar e-mail
+          </a>
+          <p class="bio" id="bio"></p>
+          <p class="tagline" id="tagline" aria-label="Frase de apresentação"></p>
+        </div>
+      </section>
+
+      <section class="gallery-section" aria-labelledby="gallery-title">
+        <div class="gallery-heading">
+          <h2 id="gallery-title">Galeria ultrawide</h2>
+          <p>Panoramas em formato 21:9. Selecione uma imagem para ampliar.</p>
+        </div>
+        <div class="gallery-viewport" id="gallery-viewport" tabindex="0" aria-label="Galeria de imagens ultrawide. Use os botões para navegar.">
+          <div class="gallery-track" id="gallery-track">
+          <figure class="gallery-item">
+            <button class="gallery-image-button" type="button" data-gallery-index="0" aria-label="Ampliar panorama: The Witcher 3: Wild Hunt — Remastered">
+              <img src="assets/img/gallery/bruxo_00001.jpg" alt="The Witcher 3: Wild Hunt — Remastered" width="2100" height="900">
+            </button>
+            <figcaption>The Witcher 3: Wild Hunt — Remastered</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="gallery-image-button" type="button" data-gallery-index="1" aria-label="Ampliar panorama: Grounded 2">
+              <img src="assets/img/gallery/Grounded2_gameplayoflove.jpg" alt="Grounded 2" width="2100" height="900">
+            </button>
+            <figcaption>Grounded 2</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="gallery-image-button" type="button" data-gallery-index="2" aria-label="Ampliar panorama: Palworld">
+              <img src="assets/img/gallery/palbad.jpg" alt="Palworld" width="2100" height="900">
+            </button>
+            <figcaption>Palworld</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="gallery-image-button" type="button" data-gallery-index="3" aria-label="Ampliar panorama: My Time at Sandrock">
+              <img src="assets/img/gallery/MyTimeatSandrocksolo.jpg" alt="My Time at Sandrock" width="2100" height="900">
+            </button>
+            <figcaption>My Time at Sandrock</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button class="gallery-image-button" type="button" data-gallery-index="4" aria-label="Ampliar panorama: Wolfenstein: The Old Blood">
+              <img src="assets/img/gallery/oldbloodface.jpg" alt="Wolfenstein: The Old Blood" width="2100" height="900">
+            </button>
+            <figcaption>Wolfenstein: The Old Blood</figcaption>
+          </figure>
+          </div>
+        </div>
+        <div class="gallery-controls" aria-label="Controles da galeria">
+          <p class="gallery-position" id="gallery-position" aria-live="polite"></p>
+          <div class="gallery-navigation">
+            <button class="gallery-nav-button" id="gallery-scroll-previous" type="button" aria-label="Ver imagens anteriores" disabled>
+              <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <button class="gallery-nav-button" id="gallery-scroll-next" type="button" aria-label="Ver mais imagens à direita">
+              <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <dialog class="gallery-dialog" id="gallery-dialog" aria-label="Imagem ampliada">
+        <div class="dialog-toolbar">
+          <p id="gallery-caption" aria-live="polite"></p>
+          <button class="dialog-button" id="gallery-close" type="button" aria-label="Fechar imagem ampliada" autofocus>
+            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="dialog-viewer">
+          <button class="dialog-button gallery-previous" id="gallery-previous" type="button" aria-label="Imagem anterior">
+            <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+          </button>
+          <img id="gallery-expanded-image" alt="">
+          <button class="dialog-button gallery-next" id="gallery-next" type="button" aria-label="Próxima imagem">
+            <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </dialog>
+
+      <footer class="page-footer">Feito com carinho na internet.</footer>
+    </main>
+  </body>
+</html>
